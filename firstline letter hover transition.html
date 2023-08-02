@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p::first-line
+        {
+            color:red;
+        } */
+        /* p::first-letter
+        {
+            color: aqua;
+        } */
+        p
+        {
+            clear: both;
+            color:red;
+            transition: 3s;
+
+        }
+        p:hover
+        {
+            color:blue;
+        }
+        #i1
+        {
+            border:solid 2px green;
+            width: 20%;
+            height: 20vh;
+            transition: 3s;
+            border-radius: 1px;
+            background-color: aquamarine;
+            float: left;
+            margin-left: 40%;
+        }
+        #i1:hover
+        {
+            border-radius: 20px;
+            margin-left: 50%;;
+            background-color: violet;
+            /* width: 30%; */
+        }
+        #i2
+        {
+            float: right;
+            border:solid 2px green;
+            width: 20%;
+            height: 20vh;
+            transition: 3s;
+            border-radius: 1px;
+            background-color: aquamarine;
+        }
+        #i2:hover
+        {
+            border-radius: 20px;
+            margin-right: 50%;;
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <div id="i1">hello</div>
+    <div id="i2"></div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, corrupti neque molestias eos tenetur consequatur laudantium impedit itaque odio repellendus deserunt eveniet necessitatibus explicabo inventore veniam sint provident! Magni, laborum.</p>
+</body>
+</html>
